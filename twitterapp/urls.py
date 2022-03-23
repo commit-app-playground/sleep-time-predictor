@@ -1,0 +1,1 @@
+from django.urls import pathfrom . import viewsurlpatterns = [    path("", views.home, name="home"),    path('/compute-sleep-time', views.handle_form, name="handle-form")]
